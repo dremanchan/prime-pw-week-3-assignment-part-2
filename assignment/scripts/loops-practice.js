@@ -33,6 +33,9 @@ console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
 //Answer - Changed i++ to i += 2 to make the loop increase by even increments. Also made i<12 so the console log would also show 10 because the loop ends at 10 and wouldn't show if i<10.
 // 1.d. (STRETCH) TODO: Write a for loop to do a counddown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
+for (let i=5; i > -1; i--){
+  console.log(i);
+}
 
 
 // 2. For of loops  
